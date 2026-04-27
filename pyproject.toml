@@ -106,3 +106,9 @@ addopts = "-v -s"
 [tool.coverage.run]
 source = ["raganything"]
 omit = ["tests/*", "examples/*"]
+
+[tool.coverage.report]
+# Personal preference: show lines missing coverage to make it easier to spot gaps
+show_missing = true
+skip_covered = false
+fail_under = 0
