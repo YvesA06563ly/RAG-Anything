@@ -99,6 +99,8 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
+# Show verbose output and print statements during test runs (useful for local debugging)
+addopts = "-v -s"
 
 [tool.coverage.run]
 source = ["raganything"]
