@@ -100,7 +100,8 @@ python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 # Show verbose output but suppress print statements to keep output clean
-addopts = "-v"
+# -s flag added to see print output during local debugging
+addopts = "-v -s"
 
 [tool.coverage.run]
 source = ["raganything"]
