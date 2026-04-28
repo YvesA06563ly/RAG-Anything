@@ -111,5 +111,5 @@ omit = ["tests/*", "examples/*"]
 # Personal preference: show lines missing coverage to make it easier to spot gaps
 show_missing = true
 skip_covered = false
-# Require at least 60% coverage to catch regressions while I'm learning the codebase
-fail_under = 60
+# Bumped from 60 to 70 — codebase is becoming more familiar, raising the bar
+fail_under = 70
